@@ -1,0 +1,51 @@
+Paziente/segretario/medico della clinica
+OBIETTIVO PAZIENTE: //ricevere una terapia (oppure ?)
+
+Medico: (paziente risponde al medico)
+OBIETTIVO MEDICO: //gestione cartelle cliniche e messaggi
+
+2 mapping
+
+Dove mettere gli ux?
+----------------------- solo da aggiustare
+
+COSA CHIEDERE AGLI UTENTI:
+1) Dobbiamo chiedere agli utenti di registrarsi
+2) Dobbiamo chiedere agli utenti di loggarsi
+3) Dobbiamo chiedere agli utenti di ricercare un medico curante (con tutti i sottotask trovati nella mappa)
+4) Dobbiamo chiedere agli utenti di prenotare una visita
+5) Dobbiamo chiedere agli utenti di comunicare con il medico
+
+COME CI ASPETTIAMO CHE L'UTENTE ESEGUA IL COMPITO:
+1) L'utente si ritrova sull'homepage. Seleziona il pulsante di registrazione (ovvero quello che dice "registrati"). Cliccato il pulsante, si ritroverà un form che richiede:
+- nome, cognome, genere, data di nascita, residenza, email, luogo di nascita, codice fiscale, numero di telefono (opz.), password, conferma_password
+L'utente a questo punto compila il form, e clicca il pulsante per completare la registrazione. 
+Cliccato il pulsante, compare un messaggio che invita l'utente a controllare la propria casella di posta elettronica per confermare la registrazione.
+
+2) L'utente, ormai registrato, si ritrova sulla homepage. Seleziona il pulsante di login (ovvero quello che dice "loggati"). Cliccato il pulsante, comparirà una schermata che lo inviterà ad inserire soliti email e password.
+L'utente inserisce i propri dati e se tutto va bene, si logga.
+Se il processo va male, il login fallisce e il sistema richiede di reinserire i dati (correttamente). >:c
+
+3) L'utente, dopo essere entrato nel sistema, potrà spostarsi tra le varie sezioni. Nello specifico, si sposterà nella sezione di ricerca dei medici. In tale sezione, per prima cosa dovrà:
+- inserire la malattia sulla barra di ricerca, la quale (ipoteticamente) suggerirà una o più malattie in base a ciò che l'utente digita.
+- inserita la malattia, l'utente visualizzerà le cliniche con medici specializzati in tale malattia. L'utente può scegliere una di queste cliniche, cliccandoci sopra per visualizzare ulteriori informazioni, e quindi cliccando il pulsante di selezione.
+- l'utente riceverà una lista di medici disponibili, e potrà selezionarne uno tra questi
+Alla fine del processo, il sistema fa tornare l'utente alla homepage.
+
+4) L'utente potrà spostarsi in una sezione riguardante le prenotazioni di visite. L'utente visualizza l'elenco dei propri medici curante (o del medico curante). Seleziona il medico curante per il quale vuole prenotare la visita, e gli comparirà una schermata in cui dovrà inserire diversi dati:
+- deve inserire data e ora (le deve inserire direttamente, senza aiuto dall'interfaccia)
+- opzionalmente, delle note per il medico in una casella di testo apposita
+- cliccherà il pulsante di conferma per inviare la richiesta di prenotazione
+Cliccato il pulsante, comparirà un pop-up che confermerà l'invio della richiesta. Alla fine del processo, il sistema fa tornare l'utente alla homepage. Non appena il segretario della clinica confermerà/rifiuterà la prenotazione, l'utente riceverà un'email con l'esito della prenotazione.
+
+5) L'utente potrà comunicare con il medico cliccando una "bolla" a destra/sinistra/dove ci pare dello schermo, la quale conterrà un'icona "messaggio". Cliccata l'icona, si aprirà a schermo (non coprendolo completamente) una sezione di conversazione. L'utente potrà: selezionare un medico con il quale avviare la conversazione (scegliendolo nell'elenco dei suoi medici curanti). Una volta selezionato, gli comparirà uno storico dei messaggi precedenti (se ci sono) e una casella di testo nel quale poter inserire il messaggio da inviare.
+L'utente può inviare ulteriori messaggi, anche senza aver ricevuto alcuna risposta dal medico. In qualsiasi momento, l'utente può tornare sulla homepage attraverso l'apposito pulsante "X".
+
+
+
+
+
+
+
+
+
